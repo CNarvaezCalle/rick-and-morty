@@ -1,0 +1,73 @@
+.button__page-container{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 3em;
+    padding-bottom: 1em;
+}
+
+
+.button__start {
+    background-color: var(--color-green);
+    color: var(--color-white);
+    border-radius: 10px 3px 3px 10px;
+    text-align: center;
+    min-width: 4em;
+    min-height: 2em;
+    font-size: 1em;
+}
+
+.button__start:hover {
+    background-color: var(--color-rick);
+    color: var(--color-bg);
+}
+
+.button__previous {
+    background-color: var(--color-green);
+    color: var(--color-white);
+    border-radius: 7px 7px 7px 7px;
+    text-align: center;
+    min-width: 4.5em;
+    min-height: 2em;
+    font-size: 1em;
+}
+
+.button__previous:hover {
+    background-color: var(--color-rick);
+    color: var(--color-bg);
+}
+
+.button__next {
+    background-color: var(--color-green);
+    color: var(--color-white);
+    border-radius: 7px 7px 7px 7px;
+    text-align: center;
+    min-width: 4.5em;
+    min-height: 2em;
+    font-size: 1em;
+}
+
+.button__next:hover {
+    background-color: var(--color-rick);
+    color: var(--color-bg);
+}
+
+.button__last {
+    background-color: var(--color-green);
+    color: var(--color-white);
+    border-radius: 3px 10px 10px 3px;
+    text-align: center;
+    min-width: 4em;
+    min-height: 2em;
+    font-size: 1em;
+}
+
+.button__last:hover {
+    background-color: var(--color-rick);
+    color: var(--color-bg);
+}
+
+.current__page {
+    color: var(--color-rick);
+    padding-top: 4px;
+}
